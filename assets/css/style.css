@@ -80,6 +80,11 @@ p {
     color: var(--text-color-light);
 }
 
+li {
+    margin-bottom: 1.5rem;
+    /* color: var(--text-color-light); */
+}
+
 a {
     text-decoration: none;
     color: var(--text-color);
@@ -90,9 +95,9 @@ a:hover {
     color: var(--primary-color);
 }
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
 img {
     max-width: 100%;
@@ -245,7 +250,12 @@ nav {
     align-items: center;
 }
 
+.jobexp{
+    list-style: inside;
+}
+
 .menu {
+    list-style-type: none;
     display: flex;
 }
 
@@ -391,10 +401,10 @@ Hero Section
 
 /* Avatar style for profile image */
 .avatar-style {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 550px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     border: 5px solid var(--primary-color);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
